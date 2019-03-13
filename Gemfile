@@ -40,6 +40,8 @@ gem "letter_opener", :group => :development
 gem 'faker'
 #表示を助けるgem
 gem 'active_decorator'
+#画像アップロードのためのgem
+gem 'carrierwave', '~> 1.0'
 #schemaをみやすくするgem
 group :development do
   gem 'annotate'
