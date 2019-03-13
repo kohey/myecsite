@@ -43,6 +43,8 @@ gem 'active_decorator'
 #画像アップロードのためのgem
 gem 'carrierwave', '~> 1.0'
 #schemaをみやすくするgem
+# シンプルなフォーム
+gem 'simple_form'
 group :development do
   gem 'annotate'
 end
