@@ -40,6 +40,10 @@ gem "letter_opener", :group => :development
 gem 'faker'
 #表示を助けるgem
 gem 'active_decorator'
+#schemaをみやすくするgem
+group :development do
+  gem 'annotate'
+end
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
