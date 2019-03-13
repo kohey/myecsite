@@ -36,6 +36,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 #開発環境で開くgem
 gem "letter_opener", :group => :development
+#テストデータを生成するgem
+gem 'faker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
