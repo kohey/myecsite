@@ -38,6 +38,8 @@ gem 'devise'
 gem "letter_opener", :group => :development
 #テストデータを生成するgem
 gem 'faker'
+#表示を助けるgem
+gem 'active_decorator'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
