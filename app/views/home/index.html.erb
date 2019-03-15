@@ -1,8 +1,12 @@
 <h1>商品一覧</h1>
-
+<%= link_to '商品を登録',:controller => "products", :action => "new" %>
 <% @products.each do |product|%>
 <div class="card mb-3">
-  <img class="card-img-top" src="..." alt="Card image cap">
+  <%if product.image.url %>
+  <%= image_tag product.image.url,:class => "card-img-top" %>
+  <% else %>
+    <%= image_tag "noimage.png",:class => "card-img-top" %>
+  <% end %>
   <div class="card-body">
     <h5 class="card-title"><%= product.name %>(<%= product.price %><%= product.currency_unit %>)</h5>
     <p class="card-text"><%= product.description %></p>
@@ -10,3 +14,4 @@
   </div>
 </div>
 <% end %>
+

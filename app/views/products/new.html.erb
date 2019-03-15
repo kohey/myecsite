@@ -1,7 +1,7 @@
-<%= simple_form_for @user do |f| %>
+<%= simple_form_for :product do |f| %>
   <%= f.input :name, input_html: { name: 'name' } %>
   <%= f.input :description,input_html: { name: 'description' } %>
   <%= f.input :price, input_html: { name: 'price' }%>
-
+  <%= f.file_field :image, input_html: { name: 'image' } %>
   <%= f.button :submit %>
 <% end %>

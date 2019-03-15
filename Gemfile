@@ -45,6 +45,8 @@ gem 'carrierwave', '~> 1.0'
 #schemaをみやすくするgem
 # シンプルなフォーム
 gem 'simple_form'
+#デバック用
+gem 'pry'
 group :development do
   gem 'annotate'
 end
